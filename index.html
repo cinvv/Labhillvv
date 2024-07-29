@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hill Lab - Tienda de Ropa</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">Hill Lab</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#products">Productos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="../img/image1" alt="Imagen 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="../img/image2" alt="Imagen 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="../img/image3" alt="Imagen 3">
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <span class="prev">&#10094;</span>
+            <span class="next">&#10095;</span>
+        </div>
+        <div class="carousel-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>Productos Destacados</h2>
+        <div class="filter">
+            <!-- Elimina las etiquetas de categoría y precio -->
+            <!-- <label for="category">Categoría:</label> -->
+            <!-- <select id="category">
+                <option value="all">Todos</option>
+                <option value="clothing">Ropa</option>
+                <option value="accessories">Accesorios</option>
+            </select> -->
+        </div>
+        <div class="product-grid">
+            <div class="product-card" data-category="clothing">
+                <img src="img/product1.jpg" alt="camisa">
+                <div class="product-info">
+                    <h3>camisa</h3>
+                    <p>$105.00</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="clothing">
+                <img src="img/product2.jpg" alt="blusa negra">
+                <div class="product-info">
+                    <h3>blusa negra</h3>
+                    <p>$70.00</p>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="clothing">
+                <img src="img/product3.jpg" alt="blusa blanca">
+                <div class="product-info">
+                    <h3>blusa blanca</h3>
+                    <p>$75.00</p>
+                    <button>Comprar</button>
+                </div>
+    </section>
+
+  
+
+    
+
+    <footer>
+        <p>&copy; 2024 Hill Lab. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../scrips/scripts.js"></script>
+</body>
+</html>
